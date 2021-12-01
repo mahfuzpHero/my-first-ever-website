@@ -1,3 +1,51 @@
-li{
-    color: brown;
+body{
+    background-color: #212F3C;
+    font-family: sans-serif;
+}
+.box{
+    background-color:#191919;
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 500;
+}
+.box input[type='text'],.box input[type='password']{
+    border:2px solid #196F3D ;
+    border-radius: 25px;
+    display: block;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px 10px;
+    color: white;
+    outline: none;
+    transition: 0.30s;
+}
+.box input[type='text']:focus,.box input[type='password']:focus{
+    border-color: #1A5276;
+    width: 200px;
+}
+.box input[type='submit']{
+    border:2px solid #5F6A6A  ;
+    border-radius: 25px;
+    background: none;
+    text-align: center;
+    width: 100px;
+    padding: 15px 10px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.box input[type='submit']:hover{
+    background-color: #5F6A6A ;
+    transition: 0.40s;
+    color: #191919;
 }
